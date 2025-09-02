@@ -7,7 +7,7 @@ const About = ({ isDarkMode }) => {
   return (
     <motion.div
       id="about"
-      className="w-full max-w-6xl mx-auto px-5 py-10 scroll-mt-20"
+      className="w-full max-w-6xl mx-auto px-5 py-10 scroll-mt-20 mt-64 md:mt-0"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -54,19 +54,38 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-Ovo">
-            I am a versatile professional skilled in both Graphic Design and
-            MERN Stack Development. With expertise in Adobe Photoshop,
-            Illustrator, and After Effects, I specialize in high-resolution
-            image editing, motion graphics, and creative visual solutions. On
-            the development side, I have hands-on experience building
-            responsive, full-stack web applications using React, Next.js,
-            Node.js, Express, MongoDB, and Tailwind CSS. My portfolio spans
-            automobile image retouching, poster and video design, a personal
-            portfolio website, a full-stack blog platform, and a React Native
-            mobile app. I am passionate about blending design creativity with
-            technical development to deliver engaging, user-friendly, and
-            impactful digital experiences
+          <p className="mb-10 max-w-2xl font-Ovo text-justify leading-relaxed tracking-wide text-gray-700 dark:text-gray-300 hover:scale-[1.01] transition-transform duration-300">
+            I am Ramesh, a passionate{" "}
+            <span className="font-semibold text-blue-600 dark:text-blue-400">
+              MERN stack developer
+            </span>{" "}
+            and
+            <span className="font-semibold">
+              {" "}
+              B.Tech graduate in Electrical & Electronics Engineering
+            </span>{" "}
+            with a strong foundation in both design and development. I
+            specialize in building{" "}
+            <span className="font-semibold">
+              scalable, responsive, and user-friendly web applications
+            </span>
+            using React, Next.js, Node.js, Express, MongoDB, and Tailwind CSS,
+            while also bringing creativity through graphic design skills in
+            Photoshop, Illustrator, and After Effects.
+            <br />
+            <br />I believe every project is an opportunity to solve real-world
+            problems. My focus is on understanding client needs, translating
+            them into{" "}
+            <span className="font-semibold text-green-600 dark:text-green-400">
+              efficient digital solutions
+            </span>
+            , and delivering results that combine technical precision with
+            creative impact.
+            <br />
+            <br />
+            Dedicated to continuous learning and professional growth, I aim to
+            create solutions that not only meet business goals but also provide
+            engaging and reliable experiences for end users.
           </p>
 
           <motion.ul

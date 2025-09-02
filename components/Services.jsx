@@ -34,13 +34,19 @@ const Services = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
-        className="text-center leading-relaxed max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-gray-700 dark:text-white/80"
+        className="text-justify leading-relaxed max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-gray-700 dark:text-white/80"
       >
-        I am a frontend developer from bangaloor,IND, with experience working on
-        projects I specialize in building responsive and user-friendly web
-        applications using React, Next.js, and modern frontend technologies. I
-        am now looking for new opportunities to further grow my skills and
-        contribute to innovative projects.
+        I am a passionate frontend developer from Andhra Pradesh, India, eager
+        to start my professional journey. Skilled in building responsive and
+        user-friendly web applications using
+        <span className="font-semibold text-blue-600 dark:text-blue-400">
+          {" "}
+          React, Next.js, and modern frontend technologies
+        </span>
+        , I have worked on personal and academic projects that showcase my
+        ability to create clean, scalable solutions. As a fresher, I am excited
+        to learn, grow, and contribute to innovative projects that make an
+        impact.
       </motion.p>
 
       <motion.div
@@ -62,15 +68,25 @@ const Services = () => {
             <p className="text-sm text-gray-600 leading-5 dark:text-white/80">
               {description}
             </p>
-            <a
+            <motion.a
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm mt-5"
+              className="flex items-center gap-2 text-sm mt-5 text-blue-600 dark:text-blue-400"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              whileHover={{ x: 5, scale: 1.05 }}
             >
-              Read more{" "}
-              <Image alt="" src={assets.right_arrow} className="w-4" />
-            </a>
+              Read more
+              <motion.div
+                initial={{ x: 0 }}
+                whileHover={{ x: 5 }}
+                transition={{ type: "spring", stiffness: 200 }}
+              >
+                <Image alt="" src={assets.right_arrow} className="w-4" />
+              </motion.div>
+            </motion.a>
           </motion.div>
         ))}
       </motion.div>

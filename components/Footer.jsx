@@ -8,30 +8,41 @@ const Footer = ({ isDarkMode }) => {
       <div className="text-center">
         <Image
           src={isDarkMode ? assets.logo_dark : assets.logo}
-          alt=""
+          alt="Logo"
           className="w-36 mx-auto mb-2"
         />
 
-        <div className="w-max flex items-center gap-2 mx-auto">
+        <div className="w-max flex items-center gap-2 mx-auto text-gray-700 dark:text-gray-300">
           <Image
             src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
-            alt=""
+            alt="Mail"
             className="w-6"
           />
           krameshr348@gmail.com
         </div>
       </div>
 
-      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2025 kramesh. All rights reserved.</p>
-        <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[5%] mt-12 py-12">
+        <p className="text-gray-700 dark:text-gray-300">
+          © 2025 kramesh. All rights reserved.
+        </p>
+
+        <ul className="flex flex-wrap items-center gap-4 justify-center mt-4 sm:mt-0 text-blue-600 dark:text-blue-400 font-medium">
           <li>
-            <a target="_blank" href="https://github.com/kRameshr/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/kRameshr/"
+            >
               GitHub
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/kurubaramesh">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/kurubaramesh"
+            >
               LinkedIn
             </a>
           </li>

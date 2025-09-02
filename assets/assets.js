@@ -86,7 +86,9 @@ export const workData = [
   },
   {
     title: "MERN stack Project",
-    description: "Modern and responsive UI/UX design for web and mobile apps.",
+    description:
+      "Full-stack platform for generating blogs, images, and resumes using Gemini and ClipDrop AI.",
+
     bgImage: "/work-4.png",
     link: "https://todays-ai.vercel.app/",
   },
@@ -116,13 +118,6 @@ export const serviceData = [
   },
   {
     icon: assets.mobile_icon,
-    title: "Video Production",
-    description:
-      "Creating high-quality video content, including editing, motion graphics, and post-production for web and social media.",
-    link: "https://www.adobe.com/learn/?learnIn=1",
-  },
-  {
-    icon: assets.ui_icon,
     title: "UI/UX Development",
     description:
       "Designing intuitive user interfaces and seamless experiences to enhance engagement and usability.",
@@ -134,6 +129,13 @@ export const serviceData = [
     description:
       "Delivering creative visual solutions including posters, banners, social media designs, and motion graphics.",
     link: "https://www.adobe.com/creativecloud.html",
+  },
+  {
+    icon: assets.ui_icon,
+    title: "Video Production",
+    description:
+      "Creating a quality video's, including editing, motion graphics, and post-production for web and social media.",
+    link: "https://www.adobe.com/learn/?learnIn=1",
   },
 ];
 
