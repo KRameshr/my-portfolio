@@ -18,7 +18,7 @@ const Footer = ({ isDarkMode }) => {
             alt=""
             className="w-6"
           />
-          krameshr@gmail.com
+          krameshr348@gmail.com
         </div>
       </div>
 
@@ -33,11 +33,6 @@ const Footer = ({ isDarkMode }) => {
           <li>
             <a target="_blank" href="https://www.linkedin.com/in/kurubaramesh">
               LinkedIn
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://instagram.com/greatstackdev">
-              Twitter
             </a>
           </li>
         </ul>

@@ -82,27 +82,27 @@ export const workData = [
     description:
       "Responsive web development project showcasing React and Next.js.",
     bgImage: "/work-1.png",
-    link: "https://web.dev/learn", // can be replaced with your actual deployed project link
+    link: "https://todaysbloging.vercel.app/", // can be replaced with your actual deployed project link
   },
   {
     title: "MERN stack Project",
     description: "Modern and responsive UI/UX design for web and mobile apps.",
     bgImage: "/work-4.png",
-    link: "https://www.interaction-design.org/literature/topics/ui-ux",
+    link: "https://todays-ai.vercel.app/",
   },
   {
     title: "Video Production Project",
     description:
       "High-quality video editing and motion graphics using Adobe After Effects.",
     bgImage: "/work-2.png",
-    link: "https://www.adobe.com/creativecloud/video.html",
+    link: "https://next.frame.io/share/40342f6f-ebc2-4aa8-9ada-175bcb73ceaf/",
   },
   {
     title: "Photography Showcase",
     description:
       "Creative photography portfolio with graphic design enhancements.",
     bgImage: "/work-3.png",
-    link: "https://www.behance.net/", // replace with your Behance/portfolio link
+    link: "https://next.frame.io/share/5fe305f1-6e98-43c2-ba2f-36b10e6037d7/", // replace with your Behance/portfolio link
   },
 ];
 
