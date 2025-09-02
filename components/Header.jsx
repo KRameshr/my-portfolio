@@ -17,7 +17,7 @@ const Header = () => {
           alt="Profile picture"
           width={128}
           height={128}
-          className="rounded-full w-32 h-32 object-cover"
+          className="rounded-full w-32 h-32 object-cover mt-6"
         />
       </motion.div>
       <motion.h3
