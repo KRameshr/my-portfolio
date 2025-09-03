@@ -78,19 +78,19 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend Project",
-    description:
-      "Responsive web development project showcasing React and Next.js.",
-    bgImage: "/work-1.png",
-    link: "https://todaysbloging.vercel.app/", // can be replaced with your actual deployed project link
-  },
-  {
     title: "MERN stack Project",
     description:
       "Full-stack platform for generating blogs, images, and resumes using Gemini and ClipDrop AI.",
 
     bgImage: "/work-4.png",
     link: "https://todays-ai.vercel.app/",
+  },
+  {
+    title: "Frontend Project",
+    description:
+      "Responsive web development project showcasing React and Next.js.",
+    bgImage: "/work-1.png",
+    link: "https://todaysbloging.vercel.app/", // can be replaced with your actual deployed project link
   },
   {
     title: "Video Production Project",
