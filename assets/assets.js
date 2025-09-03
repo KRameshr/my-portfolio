@@ -90,7 +90,7 @@ export const workData = [
     description:
       "Responsive web development project showcasing React and Next.js.",
     bgImage: "/work-1.png",
-    link: "https://todaysbloging.vercel.app/", // can be replaced with your actual deployed project link
+    link: "https://quick-cart-copy.vercel.app/", // can be replaced with your actual deployed project link
   },
   {
     title: "Video Production Project",
