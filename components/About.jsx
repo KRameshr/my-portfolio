@@ -99,9 +99,18 @@ const About = ({ isDarkMode }) => {
   </span>
   , with a strong interest in building web applications and learning modern technologies. I have also completed a{" "}
   <span className="font-semibold text-purple-600 dark:text-purple-400">
-    Post-Executive Graduate Certificate in Full Stack Web Development
-  </span>{" "}
-  from <span className="font-semibold">IIT Roorkee (iHub)</span>, which helped me strengthen my skills in web development.  
+  Post-Executive Graduate Certificate in Full Stack Web Development
+</span>{" "}
+from <span className="font-semibold">IIT Roorkee (iHub)</span> —{" "}
+<a
+  href="https://tih.iitr.ac.in/certificate/intellipaat/IPTIH25090256.jpg"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+>
+  view certificate
+</a>
+,which helped me strengthen my skills in web development.  
 
   I enjoy creating{" "}
   <span className="font-semibold">
