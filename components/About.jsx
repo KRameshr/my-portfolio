@@ -88,7 +88,7 @@ const About = ({ isDarkMode }) => {
             engaging and reliable experiences for end users.
           </p> */}
 <p className="mb-10 max-w-2xl font-Ovo text-justify leading-relaxed tracking-wide text-gray-700 dark:text-gray-300 hover:scale-[1.01] transition-transform duration-300">
-  I am Ramesh, an enthusiastic{" "}
+ Hello everyone! My name is <span className="font-semibold text-blue-600 dark:text-blue-400">K. Ramesh</span>, and I am an enthusiastic{" "}
   <span className="font-semibold text-blue-600 dark:text-blue-400">
     MERN stack developer
   </span>{" "}
@@ -107,9 +107,9 @@ const About = ({ isDarkMode }) => {
   <span className="font-semibold">
     responsive and user-friendly web applications
   </span>{" "}
-  using React, Next.js, Node.js, Express, MongoDB, and Tailwind CSS. I also dedicate time daily to practicing{" "}
-  <span className="font-semibold">Photoshop, Premiere Pro, and After Effects</span>{" "}
-  to enhance my design and multimedia skills.  
+  using React, Next.js, Node.js, Express, MongoDB, and Tailwind CSS. I also dedicate my free time to learning and practicing{" "}
+  <span className="font-semibold">Photoshop, Premiere Pro, and After Effects</span>
+  {" "}to improve my creative and multimedia skills.  
 
   I am eager to take on projects that challenge me to learn and grow. My goal is to deliver{" "}
   <span className="font-semibold text-green-600 dark:text-green-400">
