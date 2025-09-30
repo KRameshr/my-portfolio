@@ -117,7 +117,6 @@ const About = ({ isDarkMode }) => {
   </span>
   , while continuously improving my skills and gaining professional experience.  
 </p>
-
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
