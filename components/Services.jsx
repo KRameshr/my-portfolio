@@ -36,17 +36,15 @@ const Services = () => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-justify leading-relaxed max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-gray-700 dark:text-white/80"
       >
-        I am a passionate frontend developer from Andhra Pradesh, India, eager
-        to start my professional journey. Skilled in building responsive and
-        user-friendly web applications using
-        <span className="font-semibold text-blue-600 dark:text-blue-400">
-          {" "}
-          React, Next.js, and modern frontend technologies
-        </span>
-        , I have worked on personal and academic projects that showcase my
-        ability to create clean, scalable solutions. As a fresher, I am excited
-        to learn, grow, and contribute to innovative projects that make an
-        impact.
+        I specialize in creating{" "}
+  <span className="font-semibold">
+    responsive, user-friendly web applications
+  </span>{" "}
+  using modern frontend technologies. My work focuses on delivering{" "}
+  <span className="font-semibold">
+    clean, scalable, and efficient solutions
+  </span>{" "}
+  that meet client requirements. I am passionate about continuously learning and applying the latest tools to bring innovative ideas to life, ensuring projects are not only functional but also engaging and visually appealing.
       </motion.p>
 
       <motion.div
