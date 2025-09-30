@@ -54,7 +54,7 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-Ovo text-justify leading-relaxed tracking-wide text-gray-700 dark:text-gray-300 hover:scale-[1.01] transition-transform duration-300">
+          {/* <p className="mb-10 max-w-2xl font-Ovo text-justify leading-relaxed tracking-wide text-gray-700 dark:text-gray-300 hover:scale-[1.01] transition-transform duration-300">
             I am Ramesh, a passionate{" "}
             <span className="font-semibold text-blue-600 dark:text-blue-400">
               MERN stack developer
@@ -86,7 +86,37 @@ const About = ({ isDarkMode }) => {
             Dedicated to continuous learning and professional growth, I aim to
             create solutions that not only meet business goals but also provide
             engaging and reliable experiences for end users.
-          </p>
+          </p> */}
+<p className="mb-10 max-w-2xl font-Ovo text-justify leading-relaxed tracking-wide text-gray-700 dark:text-gray-300 hover:scale-[1.01] transition-transform duration-300">
+  I am Ramesh, an enthusiastic{" "}
+  <span className="font-semibold text-blue-600 dark:text-blue-400">
+    MERN stack developer
+  </span>{" "}
+  and
+  <span className="font-semibold">
+    {" "}
+    B.Tech graduate in Electrical & Electronics Engineering
+  </span>
+  , with a strong interest in building web applications and learning modern technologies. I have also completed a{" "}
+  <span className="font-semibold text-purple-600 dark:text-purple-400">
+    Post-Executive Graduate Certificate in Full Stack Web Development
+  </span>{" "}
+  from <span className="font-semibold">IIT Roorkee (iHub)</span>, which helped me strengthen my skills in web development.  
+
+  I enjoy creating{" "}
+  <span className="font-semibold">
+    responsive and user-friendly web applications
+  </span>{" "}
+  using React, Next.js, Node.js, Express, MongoDB, and Tailwind CSS. I also dedicate time daily to practicing{" "}
+  <span className="font-semibold">Photoshop, Premiere Pro, and After Effects</span>{" "}
+  to enhance my design and multimedia skills.  
+
+  I am eager to take on projects that challenge me to learn and grow. My goal is to deliver{" "}
+  <span className="font-semibold text-green-600 dark:text-green-400">
+    practical and well-crafted digital solutions
+  </span>
+  , while continuously improving my skills and gaining professional experience.  
+</p>
 
           <motion.ul
             initial={{ opacity: 0 }}
