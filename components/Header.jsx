@@ -40,7 +40,7 @@ const Header = () => {
         Web Programmer based in India.
       </motion.h1>
 
-      <motion.p
+      {/* <motion.p
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.7 }}
@@ -74,7 +74,45 @@ const Header = () => {
           deliver impactful digital experiences.
         </p>
         .
-      </motion.p>
+      </motion.p> */}
+      <motion.p
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.7 }}
+  className="max-w-2xl mx-auto font-Ovo text-justify leading-relaxed tracking-wide text-gray-700 dark:text-gray-300 hover:scale-[1.01] transition-transform duration-300"
+>
+  I am a dedicated{" "}
+  <span className="font-semibold text-blue-600 dark:text-blue-400">
+    MERN stack developer
+  </span>{" "}
+  with hands-on experience building full-stack web applications. Skilled in{" "}
+  <span className="font-semibold">React</span>,{" "}
+  <span className="font-semibold">Next.js</span>,{" "}
+  <span className="font-semibold">Node.js</span>,{" "}
+  <span className="font-semibold">Express</span>,{" "}
+  <span className="font-semibold">MongoDB</span>, and{" "}
+  <span className="font-semibold">Tailwind CSS</span>, I create responsive,
+  scalable, and user-friendly solutions.  
+
+  My projects include a dynamic personal portfolio, a full-stack blog platform
+  with admin features, and an{" "}
+  <a
+    href="https://todays-ai.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold text-blue-600 dark:text-blue-400 hover:underline"
+  >
+    AI-powered creative platform
+  </a>{" "}
+  that generates articles, blogs, images, and resume reviews by integrating{" "}
+  <span className="font-semibold">Gemini</span> and{" "}
+  <span className="font-semibold">ClipDrop AI APIs</span> with{" "}
+  <span className="font-semibold">Cloudinary</span>.  
+
+  I am passionate about continuous learning and leveraging modern technologies
+  to deliver impactful digital experiences.
+</motion.p>
+
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
