@@ -112,8 +112,6 @@ const Header = () => {
   I am passionate about continuous learning and leveraging modern technologies
   to deliver impactful digital experiences.
 </motion.p>
-
-
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
           initial={{ y: 30, opacity: 0 }}
